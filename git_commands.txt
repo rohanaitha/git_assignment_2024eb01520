@@ -1,0 +1,10 @@
+1. git init : Initializes a new, empty local Git repository.
+2. git add . : Stages all new and modified files.
+3. git commit -m "..." : Saves a snapshot of the staged changes.
+4. git checkout -b feature : Creates a new branch named 'feature' and switches to it.
+5. git checkout master : Switches your workspace back to the 'master' branch.
+6. git merge feature : Combines the changes from 'feature' into your current branch.
+7. git log --oneline --graph --all : Displays a visual timeline of all branches and commits.
+8. git revert HEAD --no-edit : Undo the changes of the very last commit safely.
+9. git remote add origin <url> : Connects your local repo to GitHub.
+10. git push -u origin main : Uploads your code to GitHub.
